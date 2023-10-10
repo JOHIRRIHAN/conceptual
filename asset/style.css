@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Onest:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;  
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Onest', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    background-color: #9376e0;
+}
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+     
+}
+.logo-container img{
+    width: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.hive-section{
+    color: #e893cf;
+}
+.logo-container p{
+    font-size: 30px;
+     
+}
+.nav-item-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.login-btn{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+}
